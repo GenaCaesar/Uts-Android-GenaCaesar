@@ -99,5 +99,23 @@
         android:layout_marginTop="8dp"
         android:text="Nepal"
         app:layout_constraintStart_toStartOf="@+id/guideline"
-        app:layout_constraintTop_toBottomOf="@+id/tv_genre_detail" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_genre_detail"
+        />
+
+    <Button
+        android:id="@+id/btnLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="652dp"
+        android:text="Selengkapnya"
+        android:textStyle="bold"
+        android:background="#FF7F00"
+        android:textColor="#000000"
+        android:fontFamily="@font/lucida"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/img_detail"
+        app:layout_constraintVertical_bias="0.129" />
 </androidx.constraintlayout.widget.ConstraintLayout>
