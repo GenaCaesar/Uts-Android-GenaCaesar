@@ -57,7 +57,7 @@ public class WelcomeActivity extends AppCompatActivity {
         }
     }
 
-    // menu
+    // menu action bar
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.item_menu, menu);

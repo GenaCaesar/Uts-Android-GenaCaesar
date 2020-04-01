@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class DrakorData {
 
-    // Membuat array untuk menyimpan data yg akan ditampilkan di RecyclerView
+    // Membuat array untuk menyimpan data yg akan ditampilkan
     public static String[][] data = new String[][] {
 
             {"What's Wrong with Secretary Kim (2018)",

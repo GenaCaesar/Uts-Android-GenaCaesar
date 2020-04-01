@@ -62,6 +62,15 @@ public class Drakor implements Parcelable {
         pemeran = in.readString();
     }
 
+    @Override
+    public void writeToParcel(Parcel parcel, int i) {
+        parcel.writeString(nama);
+        parcel.writeString(genre);
+        parcel.writeString(foto);
+        parcel.writeString(deskripsi);
+        parcel.writeString(pemeran);
+    }
+
     public static final Creator<Drakor> CREATOR = new Creator<Drakor>() {
         @Override
         public Drakor createFromParcel(Parcel in) {
@@ -77,14 +86,5 @@ public class Drakor implements Parcelable {
     @Override
     public int describeContents() {
         return 0;
-    }
-
-    @Override
-    public void writeToParcel(Parcel parcel, int i) {
-        parcel.writeString(nama);
-        parcel.writeString(genre);
-        parcel.writeString(foto);
-        parcel.writeString(deskripsi);
-        parcel.writeString(pemeran);
     }
 }
