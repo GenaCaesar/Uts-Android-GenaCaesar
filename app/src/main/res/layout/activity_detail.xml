@@ -24,7 +24,8 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:text="Name"
-        android:textSize="25sp"
+        android:fontFamily="@font/cambria"
+        android:textSize="23sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/img_detail" />
@@ -35,6 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="Sinopsis"
+        android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -43,6 +45,7 @@
     <TextView
         android:id="@+id/tv_desc_detail"
         android:layout_width="0dp"
+        android:fontFamily="@font/lucida"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
@@ -87,7 +90,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="1000 m"
+        android:text="Genre 1, Genre 2, dst"
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toBottomOf="@+id/tv_desc_detail" />
 
@@ -97,7 +100,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="Nepal"
+        android:text="Artis"
         app:layout_constraintStart_toStartOf="@+id/guideline"
         app:layout_constraintTop_toBottomOf="@+id/tv_genre_detail"
         />
@@ -112,6 +115,7 @@
         android:background="#FF7F00"
         android:textColor="#000000"
         android:fontFamily="@font/lucida"
+        android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"

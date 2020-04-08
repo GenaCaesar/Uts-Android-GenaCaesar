@@ -19,7 +19,7 @@ public class DrakorData {
                     "Berkisahkan tentang seorang pria yang pernah mengalami kecelakaan waktu kecil. Ia bernama Gong Woo Jin diperankan aktor Yang Se Jong merupakan pria yang bekerja sebagai desainer pakaian Korea Selatan, ia memiliki sifat yang baik serta wajah yang tampan. Walaupun dirinya begitu ceria tetapi dimasa lalunya ia pernah mendapatkan sebuah insiden yang tidak pernah dilupakannya. " +
                             "Dimana dirinya pernah kecelakaan dan membuat ia koma selama hampir 13 tahun. Saat bangun diri sudah berinjak umur 30 tahun tapi sifatnya masih seperti sama kayak dulu. Sedangkan ada seorang wanita bernama Woo Seo Ri diperankan aktris Shin Hye Sun, saat itu juga bertemu dengan Gong Woo Jin dan mulai menjalin hubungan.",
                     "Shin Hye-sun, Yang Se-jong, Ahn Hyo-seop"},
-            {"The Legend of The Blue (2016)",
+            {"The Legend of The Blue Sea (2016)",
                     "Romance, Fantasy, Comedy, Drama",
                     "https://upload.wikimedia.org/wikipedia/id/6/69/Legend_of_the_Blue_Sea_Poster.jpg",
                     "Berkisahkan tentang pangeran bernama Dam Ryung yang sedang berkunjung disalah satu penginapan desa, Saat malam hari Dam Ryung melihat ada seorang perempuan di kolam sedang menangis dan ia membantu melepaskannya. " +

@@ -24,16 +24,18 @@
             android:id="@+id/tv_nama_list"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Mountaint Name"
+            android:text="Nama Drakor"
             android:textStyle="bold"
-            android:textSize="16sp"
+            android:fontFamily="@font/cambria"
+            android:textSize="18sp"
             android:layout_marginBottom="8dp" />
 
         <TextView
             android:id="@+id/tv_genre_list"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="8,000 m" />
+            android:fontFamily="@font/lucida"
+            android:text="Genre" />
 
     </LinearLayout>
 
